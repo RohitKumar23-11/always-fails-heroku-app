@@ -1,0 +1,22 @@
+cd brainalyst\New (folder for python file and other file)
+pipreqs ./
+git init
+heroku login
+heroku create give file name
+git add .
+git commit -m "message"
+git checkout -b main
+git branch -D master
+git push heroku main
+heroku logs --tail --app heroko_app_name
+
+(if session time out it may work
+git push heroku main:main)
+
+this sides and youtube video may help
+
+https://help.heroku.com/O0EXQZTA/how-do-i-switch-branches-from-master-to-main
+
+https://gilberttanner.com/blog/deploying-your-streamlit-dashboard-with-heroku
+
+https://www.youtube.com/watch?v=nJHrSvYxzjE&t=319s
