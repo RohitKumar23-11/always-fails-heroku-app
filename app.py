@@ -15,7 +15,7 @@ st.set_page_config(page_title='Sales of Video Games',
                    layout='wide')
 @st.cache 
 def get_data():
-    df = pd.read_csv(r"D:\projects dataset\vgsales.csv")
+    df = pd.read_csv(r"https://raw.githubusercontent.com/RohitKumar23-11/always-fails-heroku-app/main/vgsales.csv")
     
 # df['hour'] = pd.to_datetime(df['TimeStamp'], format="%H:%M:%S").dt.hour
     return df
